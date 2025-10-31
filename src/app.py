@@ -107,7 +107,9 @@ def run_cmd(
 # em src/app.py
 @app.command("doctor")
 def doctor_cmd():
-    import importlib, shutil, sys
+    import importlib
+    import shutil
+    import sys
 
     ok = True
 
