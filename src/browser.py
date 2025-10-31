@@ -8,7 +8,7 @@ PROFILE_DIR = ".pw-edge-profile"  # pasta com sessão/cookies
 def get_playwright_context(headless: bool = False):
     Path(PROFILE_DIR).mkdir(exist_ok=True)
     p = sync_playwright().start()
-    browser = p.chromium.launch(channel="msedge", headless=headless)
+    browser = p.chromium.launch(channel="msedge", headless=headless, slow_mo=50)
     context = browser.new_context(
         accept_downloads=True,
         viewport={"width": 1600, "height": 1000},
