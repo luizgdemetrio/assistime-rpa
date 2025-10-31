@@ -1,3 +1,4 @@
+# uv.lock
 version = 1
 revision = 3
 requires-python = ">=3.12"
@@ -15,10 +16,10 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "playwright", specifier = ">=1.37.0" },
+    { name = "playwright" },
     { name = "python-dotenv" },
-    { name = "pyyaml", specifier = ">=6.0.3" },
-    { name = "typer", specifier = ">=0.20.0" },
+    { name = "pyyaml" },
+    { name = "typer" },
 ]
 
 [[package]]

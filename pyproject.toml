@@ -1,3 +1,4 @@
+# pyproject.toml
 [project]
 name = "assistme"
 version = "0.1.0"
@@ -5,8 +6,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "pyyaml>=6.0.3",
-    "typer>=0.20.0",
-    "playwright>=1.37.0",
+    "pyyaml",
+    "typer",
+    "playwright",
     "python-dotenv",
 ]
