@@ -1,0 +1,11 @@
+base_url: "https://account.grupoassistme.com.br"
+seletores:
+  btn_financeiro: 'role=button[name="Financeiro"]'
+  link_custo_puro: 'role=link[name="Custo Puro"]'
+  grid_linhas: 'css=div[role="row"]'
+  grid_cabecalho: 'css=div[role="row"] >> nth=0'
+  menu_mais: 'css=button[aria-label="Mais"], css=button:has-text("Mais"), css=[data-testid="more"]'
+  acao_visualizar: 'text=Visualizar'
+  # Ajustáveis depois que vermos o DOM real:
+  filtro_busca: 'css=input[placeholder*="Buscar"], css=input[type="search"]'
+downloads_root: "./data"
